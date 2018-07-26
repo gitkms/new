@@ -1,4 +1,4 @@
 - hosts: first
   tasks:
-- name: restart
-  command: reboot
+  - name: restart
+    command: reboot
