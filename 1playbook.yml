@@ -1,0 +1,4 @@
+- hosts: first
+  tasks:
+- name: reboot
+  command:reboot
